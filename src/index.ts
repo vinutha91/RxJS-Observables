@@ -1,6 +1,6 @@
-console.log('Hii');
+import { Observable } from 'rxjs';
 
-addItem('Hii');
+console.log(Observable);
 
 function addItem(data: any) {
     var node = document.createElement('li');
